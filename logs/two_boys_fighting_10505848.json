@@ -1,0 +1,231 @@
+{
+  "video_id": "two_boys_fighting_10505848",
+  "source_path": "data/raw/Fighting/two_boys_fighting_10505848.mp4",
+  "camera_id": "cam_01",
+  "timing": {
+    "ingestion": 0.3195,
+    "features": 6.4404,
+    "segments": 0.0001,
+    "cases_memory": 0.0071,
+    "agent_reasoning": 5.3098,
+    "reflection": 6.2848,
+    "report": 0.0021,
+    "total": 18.3638
+  },
+  "llm_calls": {
+    "stage5_calls": 1,
+    "stage6_calls": 1,
+    "total": 2
+  },
+  "errors": [],
+  "warnings": [],
+  "stage1_ingestion": {
+    "fps": 25.0,
+    "duration": 12.56,
+    "frame_count": 26,
+    "window_count": 11,
+    "warnings": []
+  },
+  "stage2_features": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "class_scores": {
+        "fighting": 0.2379,
+        "vandalism": 0.1985,
+        "fire_smoke": 0.051,
+        "normal": 0.5126
+      },
+      "person_count": 2,
+      "motion_magnitude": 12.401
+    },
+    {
+      "start": 1.0,
+      "end": 3.0,
+      "class_scores": {
+        "fighting": 0.7235,
+        "vandalism": 0.0807,
+        "fire_smoke": 0.0191,
+        "normal": 0.1767
+      },
+      "person_count": 3,
+      "motion_magnitude": 12.313
+    },
+    {
+      "start": 2.0,
+      "end": 4.0,
+      "class_scores": {
+        "fighting": 0.8574,
+        "vandalism": 0.0343,
+        "fire_smoke": 0.0064,
+        "normal": 0.1019
+      },
+      "person_count": 3,
+      "motion_magnitude": 14.681
+    },
+    {
+      "start": 3.0,
+      "end": 5.0,
+      "class_scores": {
+        "fighting": 0.8285,
+        "vandalism": 0.0292,
+        "fire_smoke": 0.0053,
+        "normal": 0.1371
+      },
+      "person_count": 1,
+      "motion_magnitude": 13.732
+    },
+    {
+      "start": 4.0,
+      "end": 6.0,
+      "class_scores": {
+        "fighting": 0.92,
+        "vandalism": 0.0179,
+        "fire_smoke": 0.0018,
+        "normal": 0.0603
+      },
+      "person_count": 1,
+      "motion_magnitude": 17.51
+    },
+    {
+      "start": 5.0,
+      "end": 7.0,
+      "class_scores": {
+        "fighting": 0.9598,
+        "vandalism": 0.0166,
+        "fire_smoke": 0.0004,
+        "normal": 0.0232
+      },
+      "person_count": 1,
+      "motion_magnitude": 19.207
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "class_scores": {
+        "fighting": 0.9433,
+        "vandalism": 0.0251,
+        "fire_smoke": 0.0005,
+        "normal": 0.0311
+      },
+      "person_count": 1,
+      "motion_magnitude": 14.729
+    },
+    {
+      "start": 7.0,
+      "end": 9.0,
+      "class_scores": {
+        "fighting": 0.9237,
+        "vandalism": 0.0264,
+        "fire_smoke": 0.0018,
+        "normal": 0.0481
+      },
+      "person_count": 2,
+      "motion_magnitude": 14.607
+    },
+    {
+      "start": 8.0,
+      "end": 10.0,
+      "class_scores": {
+        "fighting": 0.942,
+        "vandalism": 0.0174,
+        "fire_smoke": 0.0017,
+        "normal": 0.0389
+      },
+      "person_count": 2,
+      "motion_magnitude": 18.107
+    },
+    {
+      "start": 9.0,
+      "end": 11.0,
+      "class_scores": {
+        "fighting": 0.9773,
+        "vandalism": 0.0111,
+        "fire_smoke": 0.0007,
+        "normal": 0.0109
+      },
+      "person_count": 1,
+      "motion_magnitude": 20.276
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "class_scores": {
+        "fighting": 0.987,
+        "vandalism": 0.0061,
+        "fire_smoke": 0.0005,
+        "normal": 0.0065
+      },
+      "person_count": 3,
+      "motion_magnitude": 20.129
+    }
+  ],
+  "stage3_segments": [
+    {
+      "label": "fighting",
+      "start": 1.0,
+      "end": 12.0,
+      "confidence": 0.906,
+      "peak_person_count": 3,
+      "avg_motion_magnitude": 16.529
+    }
+  ],
+  "stage4_cases": [
+    {
+      "case_index": 0,
+      "start": 1.0,
+      "end": 12.0,
+      "classes": [
+        "fighting"
+      ],
+      "camera_id": "cam_01",
+      "historical_fp_rate": {
+        "fighting": 0.5
+      },
+      "related_cases_count": 0,
+      "segments": [
+        {
+          "label": "fighting",
+          "start": 1.0,
+          "end": 12.0,
+          "confidence": 0.906,
+          "peak_person_count": 3,
+          "avg_motion_magnitude": 16.529
+        }
+      ]
+    }
+  ],
+  "stage5_verdicts": [
+    {
+      "case_index": 0,
+      "needs_review": false,
+      "error": null,
+      "segments": [
+        {
+          "class": "fighting",
+          "revised_confidence": 0.45,
+          "corroboration_status": "insufficient_evidence",
+          "reasoning": "Raw confidence is high (0.91) and motion magnitude (16.53) is moderate-to-elevated, consistent with physical altercation, but peak person count of only 3 is borderline for a fighting scenario and does not strongly differentiate from other vigorous activities. The historical false positive rate of 0.50 is very high, cutting the effective reliability of this detector in half. Duration of 11s is plausible for a fight but also consistent with animated conversation or horseplay. No corroborating cases in short-term memory to cross-validate. Taken together, the evidence is suggestive but not conclusive, warranting a substantially reduced revised confidence."
+        }
+      ]
+    }
+  ],
+  "stage6_reflections": [
+    {
+      "case_index": 0,
+      "needs_review": false,
+      "error": null,
+      "segments": [
+        {
+          "class": "fighting",
+          "pre_confidence": 0.45,
+          "pre_status": "insufficient_evidence",
+          "final_confidence": 0.45,
+          "final_verdict": "needs_human_review",
+          "reflection_note": "The first-pass reasoning is internally consistent and the revised confidence of 0.45 is well-supported: high raw confidence is appropriately discounted by a 0.50 historical false positive rate, borderline person count, and absence of corroborating signals. The downgrade logic holds. However, the resulting confidence sits squarely in the ambiguous middle range (neither clearly below a dismiss threshold nor above a confirm threshold), the scenario involves potential violence, and there is only a single segment with no cross-validation possible within the case. These factors \u2014 violence class, unresolvable ambiguity from automated signals alone, and no corroboration path \u2014 collectively meet the bar for escalating to human review rather than auto-resolving as insufficient evidence. No inconsistency exists between segments since there is only one. Final confidence is held at 0.45 per the first-pass calculation, which remains sound."
+        }
+      ]
+    }
+  ],
+  "stage7_report_path": "reports/two_boys_fighting_10505848.json"
+}

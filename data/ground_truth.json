@@ -1,0 +1,12 @@
+{
+  "two_boys_fighting_10505848": [
+    {"class": "fighting", "start": 2.0, "end": 12.0}
+  ],
+  "man_vandalizing_glass_7120813": [
+    {"class": "vandalism", "start": 0.0, "end": 30.0}
+  ],
+  "drone_fire_and_smoke_11584957": [
+    {"class": "fire_smoke", "start": 0.0, "end": 104.0}
+  ],
+  "pedestrians_crossing_antwerp_14413746": []
+}

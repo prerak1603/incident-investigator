@@ -1,0 +1,7 @@
+opencv-python
+open_clip_torch
+ultralytics
+numpy
+scikit-learn
+matplotlib
+anthropic

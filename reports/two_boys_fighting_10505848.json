@@ -1,0 +1,31 @@
+{
+  "video_id": "two_boys_fighting_10505848",
+  "source_path": "data/raw/Fighting/two_boys_fighting_10505848.mp4",
+  "camera_id": "cam_01",
+  "duration": 12.56,
+  "incidents": [
+    {
+      "case_index": 0,
+      "class": "fighting",
+      "start_time": 1.0,
+      "end_time": 12.0,
+      "raw_confidence": 0.906,
+      "evidence_summary": "peak person count 3, avg motion magnitude 16.53; historical false-positive rate at this camera/hour: 0.50",
+      "citation": "cam_01 @ 1.0s-12.0s",
+      "revised_confidence": 0.45,
+      "final_confidence": 0.45,
+      "final_verdict": "needs_human_review",
+      "reflection_note": "The first-pass reasoning is internally consistent and the revised confidence of 0.45 is well-supported: high raw confidence is appropriately discounted by a 0.50 historical false positive rate, borderline person count, and absence of corroborating signals. The downgrade logic holds. However, the resulting confidence sits squarely in the ambiguous middle range (neither clearly below a dismiss threshold nor above a confirm threshold), the scenario involves potential violence, and there is only a single segment with no cross-validation possible within the case. These factors \u2014 violence class, unresolvable ambiguity from automated signals alone, and no corroboration path \u2014 collectively meet the bar for escalating to human review rather than auto-resolving as insufficient evidence. No inconsistency exists between segments since there is only one. Final confidence is held at 0.45 per the first-pass calculation, which remains sound."
+    }
+  ],
+  "summary": {
+    "total_incidents": 1,
+    "confirmed": 0,
+    "downgraded": 0,
+    "needs_human_review": 1,
+    "pipeline_errors": 0,
+    "idle_segment_count": 0,
+    "idle_duration": 0,
+    "idle_fraction": 0.0
+  }
+}

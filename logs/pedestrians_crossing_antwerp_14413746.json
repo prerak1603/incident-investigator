@@ -1,0 +1,225 @@
+{
+  "video_id": "pedestrians_crossing_antwerp_14413746",
+  "source_path": "data/raw/Normal/pedestrians_crossing_antwerp_14413746.mp4",
+  "camera_id": "cam_01",
+  "timing": {
+    "ingestion": 0.1962,
+    "features": 9.1354,
+    "segments": 0.0001,
+    "cases_memory": 0.0005,
+    "agent_reasoning": 0.0,
+    "reflection": 0.0,
+    "report": 0.0006,
+    "total": 9.3328
+  },
+  "llm_calls": {
+    "stage5_calls": 0,
+    "stage6_calls": 0,
+    "total": 0
+  },
+  "errors": [],
+  "warnings": [],
+  "stage1_ingestion": {
+    "fps": 29.97,
+    "duration": 16.55,
+    "frame_count": 34,
+    "window_count": 15,
+    "warnings": []
+  },
+  "stage2_features": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "class_scores": {
+        "fighting": 0.0996,
+        "vandalism": 0.0046,
+        "fire_smoke": 0.0223,
+        "normal": 0.8735
+      },
+      "person_count": 25,
+      "motion_magnitude": 10.452
+    },
+    {
+      "start": 1.0,
+      "end": 3.0,
+      "class_scores": {
+        "fighting": 0.0866,
+        "vandalism": 0.0028,
+        "fire_smoke": 0.0155,
+        "normal": 0.8951
+      },
+      "person_count": 24,
+      "motion_magnitude": 6.624
+    },
+    {
+      "start": 2.0,
+      "end": 4.0,
+      "class_scores": {
+        "fighting": 0.1065,
+        "vandalism": 0.0036,
+        "fire_smoke": 0.0286,
+        "normal": 0.8613
+      },
+      "person_count": 18,
+      "motion_magnitude": 7.639
+    },
+    {
+      "start": 3.0,
+      "end": 5.0,
+      "class_scores": {
+        "fighting": 0.1051,
+        "vandalism": 0.0055,
+        "fire_smoke": 0.0451,
+        "normal": 0.8442
+      },
+      "person_count": 16,
+      "motion_magnitude": 9.868
+    },
+    {
+      "start": 4.0,
+      "end": 6.0,
+      "class_scores": {
+        "fighting": 0.0811,
+        "vandalism": 0.0077,
+        "fire_smoke": 0.0665,
+        "normal": 0.8447
+      },
+      "person_count": 16,
+      "motion_magnitude": 7.4
+    },
+    {
+      "start": 5.0,
+      "end": 7.0,
+      "class_scores": {
+        "fighting": 0.0577,
+        "vandalism": 0.0085,
+        "fire_smoke": 0.078,
+        "normal": 0.8558
+      },
+      "person_count": 16,
+      "motion_magnitude": 7.413
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "class_scores": {
+        "fighting": 0.0425,
+        "vandalism": 0.0041,
+        "fire_smoke": 0.0438,
+        "normal": 0.9096
+      },
+      "person_count": 16,
+      "motion_magnitude": 8.524
+    },
+    {
+      "start": 7.0,
+      "end": 9.0,
+      "class_scores": {
+        "fighting": 0.047,
+        "vandalism": 0.0029,
+        "fire_smoke": 0.0221,
+        "normal": 0.928
+      },
+      "person_count": 16,
+      "motion_magnitude": 9.326
+    },
+    {
+      "start": 8.0,
+      "end": 10.0,
+      "class_scores": {
+        "fighting": 0.0587,
+        "vandalism": 0.004,
+        "fire_smoke": 0.0256,
+        "normal": 0.9117
+      },
+      "person_count": 15,
+      "motion_magnitude": 8.358
+    },
+    {
+      "start": 9.0,
+      "end": 11.0,
+      "class_scores": {
+        "fighting": 0.1049,
+        "vandalism": 0.0088,
+        "fire_smoke": 0.0717,
+        "normal": 0.8147
+      },
+      "person_count": 14,
+      "motion_magnitude": 9.6
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "class_scores": {
+        "fighting": 0.1316,
+        "vandalism": 0.014,
+        "fire_smoke": 0.0754,
+        "normal": 0.779
+      },
+      "person_count": 18,
+      "motion_magnitude": 10.777
+    },
+    {
+      "start": 11.0,
+      "end": 13.0,
+      "class_scores": {
+        "fighting": 0.1257,
+        "vandalism": 0.0311,
+        "fire_smoke": 0.1326,
+        "normal": 0.7107
+      },
+      "person_count": 18,
+      "motion_magnitude": 9.899
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "class_scores": {
+        "fighting": 0.1433,
+        "vandalism": 0.0586,
+        "fire_smoke": 0.1452,
+        "normal": 0.6529
+      },
+      "person_count": 16,
+      "motion_magnitude": 9.225
+    },
+    {
+      "start": 13.0,
+      "end": 15.0,
+      "class_scores": {
+        "fighting": 0.1162,
+        "vandalism": 0.0442,
+        "fire_smoke": 0.0633,
+        "normal": 0.7763
+      },
+      "person_count": 14,
+      "motion_magnitude": 11.12
+    },
+    {
+      "start": 14.0,
+      "end": 16.0,
+      "class_scores": {
+        "fighting": 0.0584,
+        "vandalism": 0.0279,
+        "fire_smoke": 0.0439,
+        "normal": 0.8698
+      },
+      "person_count": 14,
+      "motion_magnitude": 12.449
+    }
+  ],
+  "stage3_segments": [
+    {
+      "label": "idle",
+      "start": 0.0,
+      "end": 16.55,
+      "confidence": 1.0,
+      "peak_person_count": 0,
+      "avg_motion_magnitude": 0.0
+    }
+  ],
+  "stage4_cases": [],
+  "stage5_verdicts": [],
+  "stage6_reflections": [],
+  "stage7_report_path": "reports/pedestrians_crossing_antwerp_14413746.json"
+}

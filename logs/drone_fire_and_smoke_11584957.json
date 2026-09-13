@@ -1,0 +1,1335 @@
+{
+  "video_id": "drone_fire_and_smoke_11584957",
+  "source_path": "data/raw/Arson/drone_fire_and_smoke_11584957.mp4",
+  "camera_id": "cam_01",
+  "timing": {
+    "ingestion": 1.4192,
+    "features": 55.5627,
+    "segments": 0.0001,
+    "cases_memory": 0.0005,
+    "agent_reasoning": 4.1976,
+    "reflection": 4.7031,
+    "report": 0.0012,
+    "total": 65.8845
+  },
+  "llm_calls": {
+    "stage5_calls": 1,
+    "stage6_calls": 1,
+    "total": 2
+  },
+  "errors": [],
+  "warnings": [],
+  "stage1_ingestion": {
+    "fps": 29.97,
+    "duration": 104.04,
+    "frame_count": 209,
+    "window_count": 103,
+    "warnings": []
+  },
+  "stage2_features": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "class_scores": {
+        "fighting": 0.001,
+        "vandalism": 0.0025,
+        "fire_smoke": 0.9959,
+        "normal": 0.0007
+      },
+      "person_count": 2,
+      "motion_magnitude": 1.534
+    },
+    {
+      "start": 1.0,
+      "end": 3.0,
+      "class_scores": {
+        "fighting": 0.0007,
+        "vandalism": 0.0021,
+        "fire_smoke": 0.9966,
+        "normal": 0.0006
+      },
+      "person_count": 2,
+      "motion_magnitude": 1.388
+    },
+    {
+      "start": 2.0,
+      "end": 4.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0019,
+        "fire_smoke": 0.9972,
+        "normal": 0.0004
+      },
+      "person_count": 2,
+      "motion_magnitude": 1.245
+    },
+    {
+      "start": 3.0,
+      "end": 5.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0022,
+        "fire_smoke": 0.9969,
+        "normal": 0.0004
+      },
+      "person_count": 2,
+      "motion_magnitude": 1.15
+    },
+    {
+      "start": 4.0,
+      "end": 6.0,
+      "class_scores": {
+        "fighting": 0.0004,
+        "vandalism": 0.0021,
+        "fire_smoke": 0.997,
+        "normal": 0.0005
+      },
+      "person_count": 1,
+      "motion_magnitude": 1.173
+    },
+    {
+      "start": 5.0,
+      "end": 7.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0014,
+        "fire_smoke": 0.9979,
+        "normal": 0.0004
+      },
+      "person_count": 2,
+      "motion_magnitude": 1.315
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "class_scores": {
+        "fighting": 0.0004,
+        "vandalism": 0.0014,
+        "fire_smoke": 0.9977,
+        "normal": 0.0005
+      },
+      "person_count": 3,
+      "motion_magnitude": 1.429
+    },
+    {
+      "start": 7.0,
+      "end": 9.0,
+      "class_scores": {
+        "fighting": 0.0004,
+        "vandalism": 0.0015,
+        "fire_smoke": 0.9975,
+        "normal": 0.0006
+      },
+      "person_count": 3,
+      "motion_magnitude": 1.276
+    },
+    {
+      "start": 8.0,
+      "end": 10.0,
+      "class_scores": {
+        "fighting": 0.0007,
+        "vandalism": 0.0025,
+        "fire_smoke": 0.996,
+        "normal": 0.0009
+      },
+      "person_count": 3,
+      "motion_magnitude": 1.184
+    },
+    {
+      "start": 9.0,
+      "end": 11.0,
+      "class_scores": {
+        "fighting": 0.001,
+        "vandalism": 0.0037,
+        "fire_smoke": 0.9942,
+        "normal": 0.0012
+      },
+      "person_count": 3,
+      "motion_magnitude": 1.31
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0029,
+        "fire_smoke": 0.9957,
+        "normal": 0.0008
+      },
+      "person_count": 3,
+      "motion_magnitude": 1.396
+    },
+    {
+      "start": 11.0,
+      "end": 13.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0028,
+        "fire_smoke": 0.9961,
+        "normal": 0.0006
+      },
+      "person_count": 2,
+      "motion_magnitude": 1.369
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0023,
+        "fire_smoke": 0.9965,
+        "normal": 0.0006
+      },
+      "person_count": 2,
+      "motion_magnitude": 1.236
+    },
+    {
+      "start": 13.0,
+      "end": 15.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.002,
+        "fire_smoke": 0.997,
+        "normal": 0.0005
+      },
+      "person_count": 4,
+      "motion_magnitude": 1.102
+    },
+    {
+      "start": 14.0,
+      "end": 16.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0023,
+        "fire_smoke": 0.9968,
+        "normal": 0.0004
+      },
+      "person_count": 4,
+      "motion_magnitude": 1.294
+    },
+    {
+      "start": 15.0,
+      "end": 17.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0026,
+        "fire_smoke": 0.9963,
+        "normal": 0.0005
+      },
+      "person_count": 3,
+      "motion_magnitude": 1.452
+    },
+    {
+      "start": 16.0,
+      "end": 18.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0025,
+        "fire_smoke": 0.9963,
+        "normal": 0.0006
+      },
+      "person_count": 3,
+      "motion_magnitude": 1.221
+    },
+    {
+      "start": 17.0,
+      "end": 19.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0028,
+        "fire_smoke": 0.9958,
+        "normal": 0.0008
+      },
+      "person_count": 3,
+      "motion_magnitude": 1.23
+    },
+    {
+      "start": 18.0,
+      "end": 20.0,
+      "class_scores": {
+        "fighting": 0.0012,
+        "vandalism": 0.0043,
+        "fire_smoke": 0.993,
+        "normal": 0.0014
+      },
+      "person_count": 5,
+      "motion_magnitude": 1.204
+    },
+    {
+      "start": 19.0,
+      "end": 21.0,
+      "class_scores": {
+        "fighting": 0.001,
+        "vandalism": 0.004,
+        "fire_smoke": 0.9936,
+        "normal": 0.0014
+      },
+      "person_count": 5,
+      "motion_magnitude": 1.3
+    },
+    {
+      "start": 20.0,
+      "end": 22.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0023,
+        "fire_smoke": 0.9964,
+        "normal": 0.0008
+      },
+      "person_count": 2,
+      "motion_magnitude": 1.363
+    },
+    {
+      "start": 21.0,
+      "end": 23.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0022,
+        "fire_smoke": 0.9967,
+        "normal": 0.0006
+      },
+      "person_count": 1,
+      "motion_magnitude": 1.355
+    },
+    {
+      "start": 22.0,
+      "end": 24.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0021,
+        "fire_smoke": 0.9967,
+        "normal": 0.0007
+      },
+      "person_count": 3,
+      "motion_magnitude": 1.239
+    },
+    {
+      "start": 23.0,
+      "end": 25.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0018,
+        "fire_smoke": 0.9969,
+        "normal": 0.0008
+      },
+      "person_count": 3,
+      "motion_magnitude": 1.237
+    },
+    {
+      "start": 24.0,
+      "end": 26.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0018,
+        "fire_smoke": 0.9967,
+        "normal": 0.0008
+      },
+      "person_count": 3,
+      "motion_magnitude": 1.219
+    },
+    {
+      "start": 25.0,
+      "end": 27.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0017,
+        "fire_smoke": 0.9966,
+        "normal": 0.001
+      },
+      "person_count": 1,
+      "motion_magnitude": 1.328
+    },
+    {
+      "start": 26.0,
+      "end": 28.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0016,
+        "fire_smoke": 0.997,
+        "normal": 0.0007
+      },
+      "person_count": 1,
+      "motion_magnitude": 1.222
+    },
+    {
+      "start": 27.0,
+      "end": 29.0,
+      "class_scores": {
+        "fighting": 0.0007,
+        "vandalism": 0.003,
+        "fire_smoke": 0.9955,
+        "normal": 0.0008
+      },
+      "person_count": 1,
+      "motion_magnitude": 0.986
+    },
+    {
+      "start": 28.0,
+      "end": 30.0,
+      "class_scores": {
+        "fighting": 0.0009,
+        "vandalism": 0.0043,
+        "fire_smoke": 0.9935,
+        "normal": 0.0013
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.936
+    },
+    {
+      "start": 29.0,
+      "end": 31.0,
+      "class_scores": {
+        "fighting": 0.0008,
+        "vandalism": 0.0028,
+        "fire_smoke": 0.9954,
+        "normal": 0.001
+      },
+      "person_count": 0,
+      "motion_magnitude": 1.07
+    },
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0021,
+        "fire_smoke": 0.9966,
+        "normal": 0.0006
+      },
+      "person_count": 0,
+      "motion_magnitude": 2.777
+    },
+    {
+      "start": 31.0,
+      "end": 33.0,
+      "class_scores": {
+        "fighting": 0.0004,
+        "vandalism": 0.002,
+        "fire_smoke": 0.9971,
+        "normal": 0.0005
+      },
+      "person_count": 0,
+      "motion_magnitude": 3.447
+    },
+    {
+      "start": 32.0,
+      "end": 34.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.002,
+        "fire_smoke": 0.9973,
+        "normal": 0.0004
+      },
+      "person_count": 0,
+      "motion_magnitude": 3.114
+    },
+    {
+      "start": 33.0,
+      "end": 35.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0024,
+        "fire_smoke": 0.9965,
+        "normal": 0.0006
+      },
+      "person_count": 0,
+      "motion_magnitude": 3.228
+    },
+    {
+      "start": 34.0,
+      "end": 36.0,
+      "class_scores": {
+        "fighting": 0.0008,
+        "vandalism": 0.0037,
+        "fire_smoke": 0.9944,
+        "normal": 0.0011
+      },
+      "person_count": 0,
+      "motion_magnitude": 3.415
+    },
+    {
+      "start": 35.0,
+      "end": 37.0,
+      "class_scores": {
+        "fighting": 0.0008,
+        "vandalism": 0.0047,
+        "fire_smoke": 0.9935,
+        "normal": 0.001
+      },
+      "person_count": 0,
+      "motion_magnitude": 3.927
+    },
+    {
+      "start": 36.0,
+      "end": 38.0,
+      "class_scores": {
+        "fighting": 0.0007,
+        "vandalism": 0.0031,
+        "fire_smoke": 0.9956,
+        "normal": 0.0006
+      },
+      "person_count": 0,
+      "motion_magnitude": 4.124
+    },
+    {
+      "start": 37.0,
+      "end": 39.0,
+      "class_scores": {
+        "fighting": 0.0007,
+        "vandalism": 0.0016,
+        "fire_smoke": 0.9971,
+        "normal": 0.0006
+      },
+      "person_count": 2,
+      "motion_magnitude": 4.591
+    },
+    {
+      "start": 38.0,
+      "end": 40.0,
+      "class_scores": {
+        "fighting": 0.0007,
+        "vandalism": 0.0014,
+        "fire_smoke": 0.9971,
+        "normal": 0.0008
+      },
+      "person_count": 3,
+      "motion_magnitude": 5.525
+    },
+    {
+      "start": 39.0,
+      "end": 41.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0016,
+        "fire_smoke": 0.997,
+        "normal": 0.0007
+      },
+      "person_count": 3,
+      "motion_magnitude": 6.141
+    },
+    {
+      "start": 40.0,
+      "end": 42.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0012,
+        "fire_smoke": 0.9976,
+        "normal": 0.0007
+      },
+      "person_count": 3,
+      "motion_magnitude": 5.882
+    },
+    {
+      "start": 41.0,
+      "end": 43.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.001,
+        "fire_smoke": 0.9978,
+        "normal": 0.0008
+      },
+      "person_count": 3,
+      "motion_magnitude": 5.945
+    },
+    {
+      "start": 42.0,
+      "end": 44.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0008,
+        "fire_smoke": 0.9977,
+        "normal": 0.001
+      },
+      "person_count": 2,
+      "motion_magnitude": 6.395
+    },
+    {
+      "start": 43.0,
+      "end": 45.0,
+      "class_scores": {
+        "fighting": 0.0007,
+        "vandalism": 0.001,
+        "fire_smoke": 0.9966,
+        "normal": 0.0018
+      },
+      "person_count": 2,
+      "motion_magnitude": 7.05
+    },
+    {
+      "start": 44.0,
+      "end": 46.0,
+      "class_scores": {
+        "fighting": 0.0008,
+        "vandalism": 0.0014,
+        "fire_smoke": 0.9946,
+        "normal": 0.0032
+      },
+      "person_count": 2,
+      "motion_magnitude": 7.164
+    },
+    {
+      "start": 45.0,
+      "end": 47.0,
+      "class_scores": {
+        "fighting": 0.0007,
+        "vandalism": 0.0012,
+        "fire_smoke": 0.9948,
+        "normal": 0.0032
+      },
+      "person_count": 1,
+      "motion_magnitude": 6.416
+    },
+    {
+      "start": 46.0,
+      "end": 48.0,
+      "class_scores": {
+        "fighting": 0.0004,
+        "vandalism": 0.0007,
+        "fire_smoke": 0.9977,
+        "normal": 0.0012
+      },
+      "person_count": 1,
+      "motion_magnitude": 5.939
+    },
+    {
+      "start": 47.0,
+      "end": 49.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0003,
+        "fire_smoke": 0.999,
+        "normal": 0.0005
+      },
+      "person_count": 1,
+      "motion_magnitude": 5.371
+    },
+    {
+      "start": 48.0,
+      "end": 50.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0003,
+        "fire_smoke": 0.9991,
+        "normal": 0.0003
+      },
+      "person_count": 0,
+      "motion_magnitude": 6.195
+    },
+    {
+      "start": 49.0,
+      "end": 51.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0006,
+        "fire_smoke": 0.9988,
+        "normal": 0.0004
+      },
+      "person_count": 0,
+      "motion_magnitude": 6.529
+    },
+    {
+      "start": 50.0,
+      "end": 52.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0006,
+        "fire_smoke": 0.9985,
+        "normal": 0.0006
+      },
+      "person_count": 0,
+      "motion_magnitude": 3.592
+    },
+    {
+      "start": 51.0,
+      "end": 53.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0005,
+        "fire_smoke": 0.9988,
+        "normal": 0.0004
+      },
+      "person_count": 1,
+      "motion_magnitude": 3.108
+    },
+    {
+      "start": 52.0,
+      "end": 54.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0006,
+        "fire_smoke": 0.9989,
+        "normal": 0.0004
+      },
+      "person_count": 1,
+      "motion_magnitude": 1.491
+    },
+    {
+      "start": 53.0,
+      "end": 55.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0007,
+        "fire_smoke": 0.9987,
+        "normal": 0.0004
+      },
+      "person_count": 0,
+      "motion_magnitude": 1.578
+    },
+    {
+      "start": 54.0,
+      "end": 56.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.001,
+        "fire_smoke": 0.9983,
+        "normal": 0.0005
+      },
+      "person_count": 0,
+      "motion_magnitude": 1.399
+    },
+    {
+      "start": 55.0,
+      "end": 57.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.001,
+        "fire_smoke": 0.9982,
+        "normal": 0.0005
+      },
+      "person_count": 0,
+      "motion_magnitude": 1.594
+    },
+    {
+      "start": 56.0,
+      "end": 58.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0009,
+        "fire_smoke": 0.9982,
+        "normal": 0.0006
+      },
+      "person_count": 0,
+      "motion_magnitude": 2.953
+    },
+    {
+      "start": 57.0,
+      "end": 59.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0006,
+        "fire_smoke": 0.9987,
+        "normal": 0.0005
+      },
+      "person_count": 0,
+      "motion_magnitude": 2.158
+    },
+    {
+      "start": 58.0,
+      "end": 60.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0005,
+        "fire_smoke": 0.9988,
+        "normal": 0.0004
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.972
+    },
+    {
+      "start": 59.0,
+      "end": 61.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0007,
+        "fire_smoke": 0.9986,
+        "normal": 0.0005
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.973
+    },
+    {
+      "start": 60.0,
+      "end": 62.0,
+      "class_scores": {
+        "fighting": 0.0004,
+        "vandalism": 0.001,
+        "fire_smoke": 0.998,
+        "normal": 0.0007
+      },
+      "person_count": 0,
+      "motion_magnitude": 4.039
+    },
+    {
+      "start": 61.0,
+      "end": 63.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.001,
+        "fire_smoke": 0.9977,
+        "normal": 0.0009
+      },
+      "person_count": 1,
+      "motion_magnitude": 5.116
+    },
+    {
+      "start": 62.0,
+      "end": 64.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0009,
+        "fire_smoke": 0.9972,
+        "normal": 0.0013
+      },
+      "person_count": 1,
+      "motion_magnitude": 3.674
+    },
+    {
+      "start": 63.0,
+      "end": 65.0,
+      "class_scores": {
+        "fighting": 0.0007,
+        "vandalism": 0.0012,
+        "fire_smoke": 0.9962,
+        "normal": 0.0019
+      },
+      "person_count": 0,
+      "motion_magnitude": 2.635
+    },
+    {
+      "start": 64.0,
+      "end": 66.0,
+      "class_scores": {
+        "fighting": 0.0008,
+        "vandalism": 0.0015,
+        "fire_smoke": 0.9957,
+        "normal": 0.002
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.667
+    },
+    {
+      "start": 65.0,
+      "end": 67.0,
+      "class_scores": {
+        "fighting": 0.0007,
+        "vandalism": 0.0013,
+        "fire_smoke": 0.996,
+        "normal": 0.0019
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.677
+    },
+    {
+      "start": 66.0,
+      "end": 68.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.001,
+        "fire_smoke": 0.9964,
+        "normal": 0.002
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.709
+    },
+    {
+      "start": 67.0,
+      "end": 69.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0009,
+        "fire_smoke": 0.9969,
+        "normal": 0.0017
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.679
+    },
+    {
+      "start": 68.0,
+      "end": 70.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0008,
+        "fire_smoke": 0.9974,
+        "normal": 0.0012
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.768
+    },
+    {
+      "start": 69.0,
+      "end": 71.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0007,
+        "fire_smoke": 0.9979,
+        "normal": 0.0009
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.834
+    },
+    {
+      "start": 70.0,
+      "end": 72.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0006,
+        "fire_smoke": 0.9977,
+        "normal": 0.0011
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.803
+    },
+    {
+      "start": 71.0,
+      "end": 73.0,
+      "class_scores": {
+        "fighting": 0.0004,
+        "vandalism": 0.0005,
+        "fire_smoke": 0.9982,
+        "normal": 0.0009
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.822
+    },
+    {
+      "start": 72.0,
+      "end": 74.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0004,
+        "fire_smoke": 0.9987,
+        "normal": 0.0006
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.87
+    },
+    {
+      "start": 73.0,
+      "end": 75.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0005,
+        "fire_smoke": 0.9987,
+        "normal": 0.0006
+      },
+      "person_count": 0,
+      "motion_magnitude": 4.194
+    },
+    {
+      "start": 74.0,
+      "end": 76.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0005,
+        "fire_smoke": 0.9988,
+        "normal": 0.0005
+      },
+      "person_count": 0,
+      "motion_magnitude": 6.602
+    },
+    {
+      "start": 75.0,
+      "end": 77.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0006,
+        "fire_smoke": 0.9987,
+        "normal": 0.0005
+      },
+      "person_count": 0,
+      "motion_magnitude": 3.594
+    },
+    {
+      "start": 76.0,
+      "end": 78.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0006,
+        "fire_smoke": 0.9986,
+        "normal": 0.0005
+      },
+      "person_count": 0,
+      "motion_magnitude": 4.392
+    },
+    {
+      "start": 77.0,
+      "end": 79.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0005,
+        "fire_smoke": 0.999,
+        "normal": 0.0003
+      },
+      "person_count": 0,
+      "motion_magnitude": 5.518
+    },
+    {
+      "start": 78.0,
+      "end": 80.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0004,
+        "fire_smoke": 0.9991,
+        "normal": 0.0003
+      },
+      "person_count": 0,
+      "motion_magnitude": 5.716
+    },
+    {
+      "start": 79.0,
+      "end": 81.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0006,
+        "fire_smoke": 0.9987,
+        "normal": 0.0004
+      },
+      "person_count": 0,
+      "motion_magnitude": 5.929
+    },
+    {
+      "start": 80.0,
+      "end": 82.0,
+      "class_scores": {
+        "fighting": 0.0004,
+        "vandalism": 0.0008,
+        "fire_smoke": 0.9984,
+        "normal": 0.0005
+      },
+      "person_count": 0,
+      "motion_magnitude": 5.405
+    },
+    {
+      "start": 81.0,
+      "end": 83.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0011,
+        "fire_smoke": 0.9977,
+        "normal": 0.0007
+      },
+      "person_count": 0,
+      "motion_magnitude": 4.262
+    },
+    {
+      "start": 82.0,
+      "end": 84.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.001,
+        "fire_smoke": 0.9978,
+        "normal": 0.0007
+      },
+      "person_count": 0,
+      "motion_magnitude": 4.13
+    },
+    {
+      "start": 83.0,
+      "end": 85.0,
+      "class_scores": {
+        "fighting": 0.0004,
+        "vandalism": 0.0008,
+        "fire_smoke": 0.9984,
+        "normal": 0.0005
+      },
+      "person_count": 0,
+      "motion_magnitude": 4.197
+    },
+    {
+      "start": 84.0,
+      "end": 86.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0007,
+        "fire_smoke": 0.9986,
+        "normal": 0.0005
+      },
+      "person_count": 1,
+      "motion_magnitude": 4.157
+    },
+    {
+      "start": 85.0,
+      "end": 87.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0008,
+        "fire_smoke": 0.9984,
+        "normal": 0.0006
+      },
+      "person_count": 1,
+      "motion_magnitude": 7.952
+    },
+    {
+      "start": 86.0,
+      "end": 88.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0009,
+        "fire_smoke": 0.9982,
+        "normal": 0.0006
+      },
+      "person_count": 1,
+      "motion_magnitude": 9.32
+    },
+    {
+      "start": 87.0,
+      "end": 89.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0008,
+        "fire_smoke": 0.9984,
+        "normal": 0.0005
+      },
+      "person_count": 1,
+      "motion_magnitude": 7.26
+    },
+    {
+      "start": 88.0,
+      "end": 90.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0007,
+        "fire_smoke": 0.9988,
+        "normal": 0.0003
+      },
+      "person_count": 1,
+      "motion_magnitude": 14.909
+    },
+    {
+      "start": 89.0,
+      "end": 91.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0008,
+        "fire_smoke": 0.9985,
+        "normal": 0.0004
+      },
+      "person_count": 0,
+      "motion_magnitude": 10.022
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0008,
+        "fire_smoke": 0.9985,
+        "normal": 0.0004
+      },
+      "person_count": 0,
+      "motion_magnitude": 5.641
+    },
+    {
+      "start": 91.0,
+      "end": 93.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0007,
+        "fire_smoke": 0.9987,
+        "normal": 0.0004
+      },
+      "person_count": 0,
+      "motion_magnitude": 5.603
+    },
+    {
+      "start": 92.0,
+      "end": 94.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0006,
+        "fire_smoke": 0.9988,
+        "normal": 0.0004
+      },
+      "person_count": 0,
+      "motion_magnitude": 4.385
+    },
+    {
+      "start": 93.0,
+      "end": 95.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0005,
+        "fire_smoke": 0.999,
+        "normal": 0.0003
+      },
+      "person_count": 0,
+      "motion_magnitude": 6.398
+    },
+    {
+      "start": 94.0,
+      "end": 96.0,
+      "class_scores": {
+        "fighting": 0.0002,
+        "vandalism": 0.0005,
+        "fire_smoke": 0.999,
+        "normal": 0.0003
+      },
+      "person_count": 0,
+      "motion_magnitude": 4.408
+    },
+    {
+      "start": 95.0,
+      "end": 97.0,
+      "class_scores": {
+        "fighting": 0.0003,
+        "vandalism": 0.0007,
+        "fire_smoke": 0.9987,
+        "normal": 0.0004
+      },
+      "person_count": 0,
+      "motion_magnitude": 1.143
+    },
+    {
+      "start": 96.0,
+      "end": 98.0,
+      "class_scores": {
+        "fighting": 0.0004,
+        "vandalism": 0.001,
+        "fire_smoke": 0.9982,
+        "normal": 0.0005
+      },
+      "person_count": 0,
+      "motion_magnitude": 1.656
+    },
+    {
+      "start": 97.0,
+      "end": 99.0,
+      "class_scores": {
+        "fighting": 0.0005,
+        "vandalism": 0.0012,
+        "fire_smoke": 0.9976,
+        "normal": 0.0007
+      },
+      "person_count": 0,
+      "motion_magnitude": 2.574
+    },
+    {
+      "start": 98.0,
+      "end": 100.0,
+      "class_scores": {
+        "fighting": 0.0007,
+        "vandalism": 0.0022,
+        "fire_smoke": 0.996,
+        "normal": 0.0011
+      },
+      "person_count": 0,
+      "motion_magnitude": 1.861
+    },
+    {
+      "start": 99.0,
+      "end": 101.0,
+      "class_scores": {
+        "fighting": 0.0008,
+        "vandalism": 0.0021,
+        "fire_smoke": 0.9961,
+        "normal": 0.0009
+      },
+      "person_count": 0,
+      "motion_magnitude": 1.384
+    },
+    {
+      "start": 100.0,
+      "end": 102.0,
+      "class_scores": {
+        "fighting": 0.0008,
+        "vandalism": 0.0023,
+        "fire_smoke": 0.996,
+        "normal": 0.0008
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.979
+    },
+    {
+      "start": 101.0,
+      "end": 103.0,
+      "class_scores": {
+        "fighting": 0.0009,
+        "vandalism": 0.0033,
+        "fire_smoke": 0.9949,
+        "normal": 0.001
+      },
+      "person_count": 0,
+      "motion_magnitude": 0.872
+    },
+    {
+      "start": 102.0,
+      "end": 104.0,
+      "class_scores": {
+        "fighting": 0.0006,
+        "vandalism": 0.0023,
+        "fire_smoke": 0.9965,
+        "normal": 0.0007
+      },
+      "person_count": 0,
+      "motion_magnitude": 1.057
+    }
+  ],
+  "stage3_segments": [
+    {
+      "label": "fire_smoke",
+      "start": 0.0,
+      "end": 104.0,
+      "confidence": 0.997,
+      "peak_person_count": 5,
+      "avg_motion_magnitude": 3.19
+    }
+  ],
+  "stage4_cases": [
+    {
+      "case_index": 0,
+      "start": 0.0,
+      "end": 104.0,
+      "classes": [
+        "fire_smoke"
+      ],
+      "camera_id": "cam_01",
+      "historical_fp_rate": {
+        "fire_smoke": 1.0
+      },
+      "related_cases_count": 0,
+      "segments": [
+        {
+          "label": "fire_smoke",
+          "start": 0.0,
+          "end": 104.0,
+          "confidence": 0.997,
+          "peak_person_count": 5,
+          "avg_motion_magnitude": 3.19
+        }
+      ]
+    }
+  ],
+  "stage5_verdicts": [
+    {
+      "case_index": 0,
+      "needs_review": false,
+      "error": null,
+      "segments": [
+        {
+          "class": "fire_smoke",
+          "revised_confidence": 0.03,
+          "corroboration_status": "contradicted",
+          "reasoning": "The historical false positive rate for this detector on this class is 1.00, meaning it has never produced a true positive \u2014 every prior instance has been a false alarm. The average motion magnitude of 3.19 is low and consistent with normal activity rather than a fire/smoke event. The presence of up to 5 persons without apparent evacuation behavior provides no supporting signal. Despite the raw confidence of 1.00, the perfect false positive rate overwhelmingly contradicts the detection's validity."
+        }
+      ]
+    }
+  ],
+  "stage6_reflections": [
+    {
+      "case_index": 0,
+      "needs_review": false,
+      "error": null,
+      "segments": [
+        {
+          "class": "fire_smoke",
+          "pre_confidence": 0.03,
+          "pre_status": "contradicted",
+          "final_confidence": 0.03,
+          "final_verdict": "downgraded",
+          "reflection_note": "The first-pass reasoning is internally consistent and supports both the corroboration_status and the revised confidence. A historical false positive rate of 1.00 (all prior detections were false alarms) is a very strong prior against validity, and neither the low motion magnitude (3.19) nor the presence of 5 persons showing no evacuation behavior provides corroborating evidence. The raw confidence of 1.00 from the detector is itself meaningless given its perfect false positive history. No inconsistencies exist between segments (only one segment). Escalation to human review is not warranted because the evidence uniformly points away from a true positive and the base rate alone justifies auto-downgrade. The revised confidence of 0.03 is well-supported."
+        }
+      ]
+    }
+  ],
+  "stage7_report_path": "reports/drone_fire_and_smoke_11584957.json"
+}

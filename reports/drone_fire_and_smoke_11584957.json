@@ -1,0 +1,31 @@
+{
+  "video_id": "drone_fire_and_smoke_11584957",
+  "source_path": "data/raw/Arson/drone_fire_and_smoke_11584957.mp4",
+  "camera_id": "cam_01",
+  "duration": 104.04,
+  "incidents": [
+    {
+      "case_index": 0,
+      "class": "fire_smoke",
+      "start_time": 0.0,
+      "end_time": 104.0,
+      "raw_confidence": 0.997,
+      "evidence_summary": "peak person count 5, avg motion magnitude 3.19; historical false-positive rate at this camera/hour: 1.00",
+      "citation": "cam_01 @ 0.0s-104.0s",
+      "revised_confidence": 0.03,
+      "final_confidence": 0.03,
+      "final_verdict": "downgraded",
+      "reflection_note": null
+    }
+  ],
+  "summary": {
+    "total_incidents": 1,
+    "confirmed": 0,
+    "downgraded": 1,
+    "needs_human_review": 0,
+    "pipeline_errors": 0,
+    "idle_segment_count": 0,
+    "idle_duration": 0,
+    "idle_fraction": 0.0
+  }
+}

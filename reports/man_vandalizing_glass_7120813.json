@@ -1,0 +1,31 @@
+{
+  "video_id": "man_vandalizing_glass_7120813",
+  "source_path": "data/raw/Vandalism/man_vandalizing_glass_7120813.mp4",
+  "camera_id": "cam_01",
+  "duration": 34.56,
+  "incidents": [
+    {
+      "case_index": 0,
+      "class": "vandalism",
+      "start_time": 4.0,
+      "end_time": 29.0,
+      "raw_confidence": 0.856,
+      "evidence_summary": "peak person count 4, avg motion magnitude 6.48; historical false-positive rate at this camera/hour: no history",
+      "citation": "cam_01 @ 4.0s-29.0s",
+      "revised_confidence": 0.52,
+      "final_confidence": 0.52,
+      "final_verdict": "needs_human_review",
+      "reflection_note": "The first-pass reasoning is internally consistent: it correctly identifies that motion magnitude, person count, and duration are all ambiguous signals that fit vandalism but equally fit benign activity, and it appropriately penalizes the absence of calibration data and cross-reference cases. The revised confidence of 0.52 follows logically from that reasoning \u2014 sitting near the uncertain midpoint \u2014 so there is no mismatch between reasoning and score. However, a raw model confidence of 0.86 dropping to 0.52 on a vandalism classification, with no contradicting evidence (only absent evidence), represents meaningful residual risk. Vandalism has a higher cost-of-miss than many classes, and the first-pass model explicitly flags insufficient corroboration rather than active contradiction. Auto-resolving a potential vandalism event with a coin-flip confidence and no calibration baseline is inadvisable. The case should be escalated to a human reviewer who can inspect the actual footage for object interactions, surface contact, or other scene-specific cues that the numeric features alone cannot capture. No inter-segment inconsistencies exist since this is a single-segment case."
+    }
+  ],
+  "summary": {
+    "total_incidents": 1,
+    "confirmed": 0,
+    "downgraded": 0,
+    "needs_human_review": 1,
+    "pipeline_errors": 0,
+    "idle_segment_count": 2,
+    "idle_duration": 9.56,
+    "idle_fraction": 0.277
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "video_id": "man_vandalizing_glass_7120813",
+  "source_path": "data/raw/Vandalism/man_vandalizing_glass_7120813.mp4",
+  "camera_id": "cam_01",
+  "timing": {
+    "ingestion": 0.6861,
+    "features": 20.9857,
+    "segments": 0.0001,
+    "cases_memory": 0.0004,
+    "agent_reasoning": 5.603,
+    "reflection": 7.5889,
+    "report": 0.002,
+    "total": 34.8663
+  },
+  "llm_calls": {
+    "stage5_calls": 1,
+    "stage6_calls": 1,
+    "total": 2
+  },
+  "errors": [],
+  "warnings": [],
+  "stage1_ingestion": {
+    "fps": 25.0,
+    "duration": 34.56,
+    "frame_count": 70,
+    "window_count": 33,
+    "warnings": []
+  },
+  "stage2_features": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "class_scores": {
+        "fighting": 0.1492,
+        "vandalism": 0.3732,
+        "fire_smoke": 0.4015,
+        "normal": 0.0761
+      },
+      "person_count": 2,
+      "motion_magnitude": 8.487
+    },
+    {
+      "start": 1.0,
+      "end": 3.0,
+      "class_scores": {
+        "fighting": 0.2664,
+        "vandalism": 0.3872,
+        "fire_smoke": 0.1042,
+        "normal": 0.2422
+      },
+      "person_count": 3,
+      "motion_magnitude": 7.529
+    },
+    {
+      "start": 2.0,
+      "end": 4.0,
+      "class_scores": {
+        "fighting": 0.1564,
+        "vandalism": 0.3667,
+        "fire_smoke": 0.0216,
+        "normal": 0.4553
+      },
+      "person_count": 3,
+      "motion_magnitude": 9.684
+    },
+    {
+      "start": 3.0,
+      "end": 5.0,
+      "class_scores": {
+        "fighting": 0.1044,
+        "vandalism": 0.4739,
+        "fire_smoke": 0.0177,
+        "normal": 0.4041
+      },
+      "person_count": 4,
+      "motion_magnitude": 8.785
+    },
+    {
+      "start": 4.0,
+      "end": 6.0,
+      "class_scores": {
+        "fighting": 0.0572,
+        "vandalism": 0.7943,
+        "fire_smoke": 0.0095,
+        "normal": 0.139
+      },
+      "person_count": 4,
+      "motion_magnitude": 6.696
+    },
+    {
+      "start": 5.0,
+      "end": 7.0,
+      "class_scores": {
+        "fighting": 0.0434,
+        "vandalism": 0.885,
+        "fire_smoke": 0.0074,
+        "normal": 0.0642
+      },
+      "person_count": 2,
+      "motion_magnitude": 9.932
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "class_scores": {
+        "fighting": 0.0427,
+        "vandalism": 0.8732,
+        "fire_smoke": 0.0084,
+        "normal": 0.0757
+      },
+      "person_count": 1,
+      "motion_magnitude": 12.014
+    },
+    {
+      "start": 7.0,
+      "end": 9.0,
+      "class_scores": {
+        "fighting": 0.0446,
+        "vandalism": 0.8694,
+        "fire_smoke": 0.0078,
+        "normal": 0.0782
+      },
+      "person_count": 2,
+      "motion_magnitude": 10.224
+    },
+    {
+      "start": 8.0,
+      "end": 10.0,
+      "class_scores": {
+        "fighting": 0.0531,
+        "vandalism": 0.8317,
+        "fire_smoke": 0.0136,
+        "normal": 0.1016
+      },
+      "person_count": 3,
+      "motion_magnitude": 7.41
+    },
+    {
+      "start": 9.0,
+      "end": 11.0,
+      "class_scores": {
+        "fighting": 0.0462,
+        "vandalism": 0.8744,
+        "fire_smoke": 0.0161,
+        "normal": 0.0633
+      },
+      "person_count": 3,
+      "motion_magnitude": 9.514
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "class_scores": {
+        "fighting": 0.0325,
+        "vandalism": 0.921,
+        "fire_smoke": 0.0091,
+        "normal": 0.0374
+      },
+      "person_count": 1,
+      "motion_magnitude": 7.454
+    },
+    {
+      "start": 11.0,
+      "end": 13.0,
+      "class_scores": {
+        "fighting": 0.0082,
+        "vandalism": 0.9768,
+        "fire_smoke": 0.0033,
+        "normal": 0.0117
+      },
+      "person_count": 1,
+      "motion_magnitude": 6.138
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "class_scores": {
+        "fighting": 0.0042,
+        "vandalism": 0.9875,
+        "fire_smoke": 0.0018,
+        "normal": 0.0066
+      },
+      "person_count": 1,
+      "motion_magnitude": 5.262
+    },
+    {
+      "start": 13.0,
+      "end": 15.0,
+      "class_scores": {
+        "fighting": 0.0114,
+        "vandalism": 0.9604,
+        "fire_smoke": 0.0021,
+        "normal": 0.0261
+      },
+      "person_count": 1,
+      "motion_magnitude": 5.798
+    },
+    {
+      "start": 14.0,
+      "end": 16.0,
+      "class_scores": {
+        "fighting": 0.0217,
+        "vandalism": 0.9126,
+        "fire_smoke": 0.0037,
+        "normal": 0.062
+      },
+      "person_count": 1,
+      "motion_magnitude": 4.755
+    },
+    {
+      "start": 15.0,
+      "end": 17.0,
+      "class_scores": {
+        "fighting": 0.0127,
+        "vandalism": 0.9476,
+        "fire_smoke": 0.0044,
+        "normal": 0.0353
+      },
+      "person_count": 1,
+      "motion_magnitude": 3.272
+    },
+    {
+      "start": 16.0,
+      "end": 18.0,
+      "class_scores": {
+        "fighting": 0.0078,
+        "vandalism": 0.9731,
+        "fire_smoke": 0.0024,
+        "normal": 0.0167
+      },
+      "person_count": 1,
+      "motion_magnitude": 3.728
+    },
+    {
+      "start": 17.0,
+      "end": 19.0,
+      "class_scores": {
+        "fighting": 0.0168,
+        "vandalism": 0.9605,
+        "fire_smoke": 0.0034,
+        "normal": 0.0193
+      },
+      "person_count": 1,
+      "motion_magnitude": 6.935
+    },
+    {
+      "start": 18.0,
+      "end": 20.0,
+      "class_scores": {
+        "fighting": 0.0265,
+        "vandalism": 0.9399,
+        "fire_smoke": 0.0095,
+        "normal": 0.0241
+      },
+      "person_count": 1,
+      "motion_magnitude": 7.039
+    },
+    {
+      "start": 19.0,
+      "end": 21.0,
+      "class_scores": {
+        "fighting": 0.0501,
+        "vandalism": 0.896,
+        "fire_smoke": 0.0155,
+        "normal": 0.0385
+      },
+      "person_count": 1,
+      "motion_magnitude": 5.244
+    },
+    {
+      "start": 20.0,
+      "end": 22.0,
+      "class_scores": {
+        "fighting": 0.1067,
+        "vandalism": 0.8062,
+        "fire_smoke": 0.011,
+        "normal": 0.0761
+      },
+      "person_count": 1,
+      "motion_magnitude": 4.357
+    },
+    {
+      "start": 21.0,
+      "end": 23.0,
+      "class_scores": {
+        "fighting": 0.0903,
+        "vandalism": 0.7991,
+        "fire_smoke": 0.01,
+        "normal": 0.1005
+      },
+      "person_count": 1,
+      "motion_magnitude": 4.509
+    },
+    {
+      "start": 22.0,
+      "end": 24.0,
+      "class_scores": {
+        "fighting": 0.1012,
+        "vandalism": 0.7697,
+        "fire_smoke": 0.0092,
+        "normal": 0.1199
+      },
+      "person_count": 1,
+      "motion_magnitude": 5.468
+    },
+    {
+      "start": 23.0,
+      "end": 25.0,
+      "class_scores": {
+        "fighting": 0.0717,
+        "vandalism": 0.7978,
+        "fire_smoke": 0.0111,
+        "normal": 0.1194
+      },
+      "person_count": 1,
+      "motion_magnitude": 6.157
+    },
+    {
+      "start": 24.0,
+      "end": 26.0,
+      "class_scores": {
+        "fighting": 0.0928,
+        "vandalism": 0.7033,
+        "fire_smoke": 0.0387,
+        "normal": 0.1652
+      },
+      "person_count": 1,
+      "motion_magnitude": 5.857
+    },
+    {
+      "start": 25.0,
+      "end": 27.0,
+      "class_scores": {
+        "fighting": 0.1301,
+        "vandalism": 0.7091,
+        "fire_smoke": 0.0381,
+        "normal": 0.1227
+      },
+      "person_count": 1,
+      "motion_magnitude": 6.352
+    },
+    {
+      "start": 26.0,
+      "end": 28.0,
+      "class_scores": {
+        "fighting": 0.0592,
+        "vandalism": 0.7847,
+        "fire_smoke": 0.122,
+        "normal": 0.0341
+      },
+      "person_count": 1,
+      "motion_magnitude": 6.779
+    },
+    {
+      "start": 27.0,
+      "end": 29.0,
+      "class_scores": {
+        "fighting": 0.0338,
+        "vandalism": 0.5707,
+        "fire_smoke": 0.3472,
+        "normal": 0.0483
+      },
+      "person_count": 2,
+      "motion_magnitude": 4.726
+    },
+    {
+      "start": 28.0,
+      "end": 30.0,
+      "class_scores": {
+        "fighting": 0.0641,
+        "vandalism": 0.4151,
+        "fire_smoke": 0.075,
+        "normal": 0.4459
+      },
+      "person_count": 2,
+      "motion_magnitude": 2.826
+    },
+    {
+      "start": 29.0,
+      "end": 31.0,
+      "class_scores": {
+        "fighting": 0.0767,
+        "vandalism": 0.1433,
+        "fire_smoke": 0.0179,
+        "normal": 0.762
+      },
+      "person_count": 1,
+      "motion_magnitude": 3.524
+    },
+    {
+      "start": 30.0,
+      "end": 32.0,
+      "class_scores": {
+        "fighting": 0.0793,
+        "vandalism": 0.1166,
+        "fire_smoke": 0.0147,
+        "normal": 0.7895
+      },
+      "person_count": 1,
+      "motion_magnitude": 5.593
+    },
+    {
+      "start": 31.0,
+      "end": 33.0,
+      "class_scores": {
+        "fighting": 0.0711,
+        "vandalism": 0.1205,
+        "fire_smoke": 0.0123,
+        "normal": 0.7961
+      },
+      "person_count": 1,
+      "motion_magnitude": 6.715
+    },
+    {
+      "start": 32.0,
+      "end": 34.0,
+      "class_scores": {
+        "fighting": 0.0941,
+        "vandalism": 0.1053,
+        "fire_smoke": 0.011,
+        "normal": 0.7896
+      },
+      "person_count": 1,
+      "motion_magnitude": 7.488
+    }
+  ],
+  "stage3_segments": [
+    {
+      "label": "idle",
+      "start": 0.0,
+      "end": 4.0,
+      "confidence": 1.0,
+      "peak_person_count": 0,
+      "avg_motion_magnitude": 0.0
+    },
+    {
+      "label": "vandalism",
+      "start": 4.0,
+      "end": 29.0,
+      "confidence": 0.856,
+      "peak_person_count": 4,
+      "avg_motion_magnitude": 6.484
+    },
+    {
+      "label": "idle",
+      "start": 29.0,
+      "end": 34.56,
+      "confidence": 1.0,
+      "peak_person_count": 0,
+      "avg_motion_magnitude": 0.0
+    }
+  ],
+  "stage4_cases": [
+    {
+      "case_index": 0,
+      "start": 4.0,
+      "end": 29.0,
+      "classes": [
+        "vandalism"
+      ],
+      "camera_id": "cam_01",
+      "historical_fp_rate": {
+        "vandalism": null
+      },
+      "related_cases_count": 0,
+      "segments": [
+        {
+          "label": "vandalism",
+          "start": 4.0,
+          "end": 29.0,
+          "confidence": 0.856,
+          "peak_person_count": 4,
+          "avg_motion_magnitude": 6.484
+        }
+      ]
+    }
+  ],
+  "stage5_verdicts": [
+    {
+      "case_index": 0,
+      "needs_review": false,
+      "error": null,
+      "segments": [
+        {
+          "class": "vandalism",
+          "revised_confidence": 0.52,
+          "corroboration_status": "insufficient_evidence",
+          "reasoning": "The raw confidence of 0.86 is notable, but several factors limit corroboration. The avg_motion_magnitude of 6.48 is moderate and consistent with vandalism but also with many benign activities. Peak person count of 4 could support a vandalism scenario but is not specific to it. The 25-second duration is plausible for vandalism but again not distinctive. Critically, there is no historical false positive rate data for this camera/class/hour, removing a key calibration signal, and no related recent cases to cross-reference. Without additional contextual evidence (e.g., object interactions, sound, scene-specific cues), the evidence is insufficient to confidently corroborate or contradict the classification, warranting a modestly adjusted confidence near the uncertain midpoint."
+        }
+      ]
+    }
+  ],
+  "stage6_reflections": [
+    {
+      "case_index": 0,
+      "needs_review": false,
+      "error": null,
+      "segments": [
+        {
+          "class": "vandalism",
+          "pre_confidence": 0.52,
+          "pre_status": "insufficient_evidence",
+          "final_confidence": 0.52,
+          "final_verdict": "needs_human_review",
+          "reflection_note": "The first-pass reasoning is internally consistent: it correctly identifies that motion magnitude, person count, and duration are all ambiguous signals that fit vandalism but equally fit benign activity, and it appropriately penalizes the absence of calibration data and cross-reference cases. The revised confidence of 0.52 follows logically from that reasoning \u2014 sitting near the uncertain midpoint \u2014 so there is no mismatch between reasoning and score. However, a raw model confidence of 0.86 dropping to 0.52 on a vandalism classification, with no contradicting evidence (only absent evidence), represents meaningful residual risk. Vandalism has a higher cost-of-miss than many classes, and the first-pass model explicitly flags insufficient corroboration rather than active contradiction. Auto-resolving a potential vandalism event with a coin-flip confidence and no calibration baseline is inadvisable. The case should be escalated to a human reviewer who can inspect the actual footage for object interactions, surface contact, or other scene-specific cues that the numeric features alone cannot capture. No inter-segment inconsistencies exist since this is a single-segment case."
+        }
+      ]
+    }
+  ],
+  "stage7_report_path": "reports/man_vandalizing_glass_7120813.json"
+}

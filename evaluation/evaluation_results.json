@@ -1,0 +1,217 @@
+{
+  "cv_evaluation": {
+    "map_by_iou_threshold": {
+      "0.3": {
+        "mAP": 1.0,
+        "per_class_ap": {
+          "fighting": 1.0,
+          "vandalism": 1.0,
+          "fire_smoke": 1.0
+        }
+      },
+      "0.5": {
+        "mAP": 1.0,
+        "per_class_ap": {
+          "fighting": 1.0,
+          "vandalism": 1.0,
+          "fire_smoke": 1.0
+        }
+      },
+      "0.7": {
+        "mAP": 1.0,
+        "per_class_ap": {
+          "fighting": 1.0,
+          "vandalism": 1.0,
+          "fire_smoke": 1.0
+        }
+      }
+    },
+    "precision_recall_at_0.5": {
+      "fighting": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      "vandalism": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      },
+      "fire_smoke": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "predictions": [
+      {
+        "video_id": "two_boys_fighting_10505848",
+        "class": "fighting",
+        "start": 1.0,
+        "end": 12.0,
+        "confidence": 0.9062436342239379
+      },
+      {
+        "video_id": "man_vandalizing_glass_7120813",
+        "class": "vandalism",
+        "start": 4.0,
+        "end": 29.0,
+        "confidence": 0.8560008257627487
+      },
+      {
+        "video_id": "drone_fire_and_smoke_11584957",
+        "class": "fire_smoke",
+        "start": 0.0,
+        "end": 104.0,
+        "confidence": 0.9972221093270385
+      }
+    ]
+  },
+  "agent_evaluation": {
+    "rows": [
+      {
+        "video_id": "two_boys_fighting_10505848",
+        "memory_mode": "none",
+        "case_index": 0,
+        "class": "fighting",
+        "raw_confidence": 0.9062436342239379,
+        "revised_confidence": 0.72,
+        "final_confidence": 0.72,
+        "final_verdict": "needs_human_review",
+        "confidence_shift": -0.18624363422393797,
+        "diverged": true,
+        "llm_calls": 2
+      },
+      {
+        "video_id": "two_boys_fighting_10505848",
+        "memory_mode": "short_term",
+        "case_index": 0,
+        "class": "fighting",
+        "raw_confidence": 0.9062436342239379,
+        "revised_confidence": 0.72,
+        "final_confidence": 0.72,
+        "final_verdict": "needs_human_review",
+        "confidence_shift": -0.18624363422393797,
+        "diverged": true,
+        "llm_calls": 2
+      },
+      {
+        "video_id": "two_boys_fighting_10505848",
+        "memory_mode": "short_and_long_term",
+        "case_index": 0,
+        "class": "fighting",
+        "raw_confidence": 0.9062436342239379,
+        "revised_confidence": 0.45,
+        "final_confidence": 0.45,
+        "final_verdict": "needs_human_review",
+        "confidence_shift": -0.45624363422393793,
+        "diverged": true,
+        "llm_calls": 2
+      },
+      {
+        "video_id": "man_vandalizing_glass_7120813",
+        "memory_mode": "none",
+        "case_index": 0,
+        "class": "vandalism",
+        "raw_confidence": 0.8560008257627487,
+        "revised_confidence": 0.62,
+        "final_confidence": 0.62,
+        "final_verdict": "needs_human_review",
+        "confidence_shift": -0.23600082576274872,
+        "diverged": true,
+        "llm_calls": 2
+      },
+      {
+        "video_id": "man_vandalizing_glass_7120813",
+        "memory_mode": "short_term",
+        "case_index": 0,
+        "class": "vandalism",
+        "raw_confidence": 0.8560008257627487,
+        "revised_confidence": 0.62,
+        "final_confidence": 0.62,
+        "final_verdict": "needs_human_review",
+        "confidence_shift": -0.23600082576274872,
+        "diverged": true,
+        "llm_calls": 2
+      },
+      {
+        "video_id": "man_vandalizing_glass_7120813",
+        "memory_mode": "short_and_long_term",
+        "case_index": 0,
+        "class": "vandalism",
+        "raw_confidence": 0.8560008257627487,
+        "revised_confidence": 0.52,
+        "final_confidence": 0.52,
+        "final_verdict": "needs_human_review",
+        "confidence_shift": -0.3360008257627487,
+        "diverged": true,
+        "llm_calls": 2
+      },
+      {
+        "video_id": "drone_fire_and_smoke_11584957",
+        "memory_mode": "none",
+        "case_index": 0,
+        "class": "fire_smoke",
+        "raw_confidence": 0.9972221093270385,
+        "revised_confidence": 0.35,
+        "final_confidence": 0.35,
+        "final_verdict": "needs_human_review",
+        "confidence_shift": -0.6472221093270385,
+        "diverged": true,
+        "llm_calls": 2
+      },
+      {
+        "video_id": "drone_fire_and_smoke_11584957",
+        "memory_mode": "short_term",
+        "case_index": 0,
+        "class": "fire_smoke",
+        "raw_confidence": 0.9972221093270385,
+        "revised_confidence": 0.55,
+        "final_confidence": 0.55,
+        "final_verdict": "needs_human_review",
+        "confidence_shift": -0.44722210932703843,
+        "diverged": true,
+        "llm_calls": 2
+      },
+      {
+        "video_id": "drone_fire_and_smoke_11584957",
+        "memory_mode": "short_and_long_term",
+        "case_index": 0,
+        "class": "fire_smoke",
+        "raw_confidence": 0.9972221093270385,
+        "revised_confidence": 0.05,
+        "final_confidence": 0.05,
+        "final_verdict": "downgraded",
+        "confidence_shift": -0.9472221093270384,
+        "diverged": true,
+        "llm_calls": 2
+      }
+    ],
+    "summary": {
+      "none": {
+        "num_cases": 3,
+        "avg_confidence_shift": -0.35648885643790845,
+        "pct_verdict_changed": 100.0,
+        "total_llm_calls": 6
+      },
+      "short_term": {
+        "num_cases": 3,
+        "avg_confidence_shift": -0.2898221897712417,
+        "pct_verdict_changed": 100.0,
+        "total_llm_calls": 6
+      },
+      "short_and_long_term": {
+        "num_cases": 3,
+        "avg_confidence_shift": -0.5798221897712418,
+        "pct_verdict_changed": 100.0,
+        "total_llm_calls": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "pedestrians_crossing_antwerp_14413746",
+  "source_path": "data/raw/Normal/pedestrians_crossing_antwerp_14413746.mp4",
+  "camera_id": "cam_01",
+  "duration": 16.55,
+  "incidents": [],
+  "summary": {
+    "total_incidents": 0,
+    "confirmed": 0,
+    "downgraded": 0,
+    "needs_human_review": 0,
+    "pipeline_errors": 0,
+    "idle_segment_count": 1,
+    "idle_duration": 16.55,
+    "idle_fraction": 1.0
+  }
+}
