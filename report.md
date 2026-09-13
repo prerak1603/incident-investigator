@@ -183,6 +183,17 @@ test of it.
 at all, one ground-truth interval per class, three cases total in the memory
 ablation. Every number in this report should be read as "this is what happened on
 these four specific clips," not as a claim about the pipeline's general accuracy.
+That's not the same as saying four clips prove nothing, though. The goal at this
+stage wasn't to establish accuracy statistics — it was to show the mechanism
+actually works: that an LLM agent, given nothing but a camera's own historical
+track record, can take a near-certain CNN detection (0.997) and correctly override
+it (0.05). One clean example of that happening is real evidence the architecture
+does what it's designed to do; it just isn't evidence of how *often* it would do
+it across a real deployment, and I don't want to oversell it as more than that.
+Actually showing this generalizes would need more cameras, more activity classes,
+real incident history instead of four seeded rows, and enough clips that mAP and
+the ablation's verdict-change rate stop saturating at trivial values — that's the
+natural next step for this project, not a gap that undermines the current result.
 
 **Long-term memory is seeded with synthetic data.** The four rows in
 `case_history` (`memory.py`) are hand-written placeholders, not real incident
