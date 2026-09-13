@@ -12,8 +12,8 @@
       "raw_confidence": 0.997,
       "evidence_summary": "peak person count 5, avg motion magnitude 3.19; historical false-positive rate at this camera/hour: 1.00",
       "citation": "cam_01 @ 0.0s-104.0s",
-      "revised_confidence": 0.03,
-      "final_confidence": 0.03,
+      "revised_confidence": 0.05,
+      "final_confidence": 0.05,
       "final_verdict": "downgraded",
       "reflection_note": null
     }

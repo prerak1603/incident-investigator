@@ -3,14 +3,14 @@
   "source_path": "data/raw/Arson/drone_fire_and_smoke_11584957.mp4",
   "camera_id": "cam_01",
   "timing": {
-    "ingestion": 1.4192,
-    "features": 55.5627,
+    "ingestion": 1.7725,
+    "features": 54.5074,
     "segments": 0.0001,
-    "cases_memory": 0.0005,
-    "agent_reasoning": 4.1976,
-    "reflection": 4.7031,
-    "report": 0.0012,
-    "total": 65.8845
+    "cases_memory": 0.0059,
+    "agent_reasoning": 4.6595,
+    "reflection": 4.4561,
+    "report": 0.0035,
+    "total": 65.4052
   },
   "llm_calls": {
     "stage5_calls": 1,
@@ -1307,9 +1307,9 @@
       "segments": [
         {
           "class": "fire_smoke",
-          "revised_confidence": 0.03,
+          "revised_confidence": 0.05,
           "corroboration_status": "contradicted",
-          "reasoning": "The historical false positive rate for this detector on this class is 1.00, meaning it has never produced a true positive \u2014 every prior instance has been a false alarm. The average motion magnitude of 3.19 is low and consistent with normal activity rather than a fire/smoke event. The presence of up to 5 persons without apparent evacuation behavior provides no supporting signal. Despite the raw confidence of 1.00, the perfect false positive rate overwhelmingly contradicts the detection's validity."
+          "reasoning": "Despite a raw confidence of 1.00, the historical false positive rate for this detector is also 1.00, meaning it has never produced a true positive \u2014 every prior detection was a false alarm. The average motion magnitude of 3.19 is low, inconsistent with the dynamic movement expected in an active fire/smoke event. Person count of 5 does not corroborate fire presence on its own. The combination of a perfect false positive history and weak supporting sensor signals strongly contradicts treating this as a genuine fire_smoke incident."
         }
       ]
     }
@@ -1322,11 +1322,11 @@
       "segments": [
         {
           "class": "fire_smoke",
-          "pre_confidence": 0.03,
+          "pre_confidence": 0.05,
           "pre_status": "contradicted",
-          "final_confidence": 0.03,
+          "final_confidence": 0.05,
           "final_verdict": "downgraded",
-          "reflection_note": "The first-pass reasoning is internally consistent and supports both the corroboration_status and the revised confidence. A historical false positive rate of 1.00 (all prior detections were false alarms) is a very strong prior against validity, and neither the low motion magnitude (3.19) nor the presence of 5 persons showing no evacuation behavior provides corroborating evidence. The raw confidence of 1.00 from the detector is itself meaningless given its perfect false positive history. No inconsistencies exist between segments (only one segment). Escalation to human review is not warranted because the evidence uniformly points away from a true positive and the base rate alone justifies auto-downgrade. The revised confidence of 0.03 is well-supported."
+          "reflection_note": "The first-pass reasoning is internally consistent and supports the assigned revised_confidence of 0.05 and corroboration_status of 'contradicted'. The 1.00 historical false positive rate is a strong prior against this detector ever producing a true positive. Low avg_motion_magnitude (3.19) is genuinely inconsistent with active fire/smoke dynamics. Person count of 5 provides no independent corroboration. No inter-segment contradictions exist (single segment case). Escalation to human review is not warranted given the unambiguous false-positive history and weak supporting signals; auto-resolution as downgraded is appropriate. Confidence held at 0.05 \u2014 no basis to revise upward or further downward."
         }
       ]
     }

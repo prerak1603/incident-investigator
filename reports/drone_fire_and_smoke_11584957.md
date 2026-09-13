@@ -10,6 +10,6 @@ Duration: 104.04s
 
 | raw | revised | final | verdict |
 |---|---|---|---|
-| 1.00 | 0.03 | 0.03 | downgraded |
+| 1.00 | 0.05 | 0.05 | downgraded |
 
 peak person count 5, avg motion magnitude 3.19; historical false-positive rate at this camera/hour: 1.00
